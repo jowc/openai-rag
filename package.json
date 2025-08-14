@@ -1,0 +1,29 @@
+{
+  "name": "openai-rag",
+  "version": "1.0.0",
+  "description": "Open API RAG project",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "serve": "nodemon",
+    "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
+  },
+  "homepage": "https://github.com/jowc/openai-rag#readme",
+  "bugs": {
+    "url": "https://github.com/jowc/openai-rag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowc/openai-rag.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Chikeme",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
